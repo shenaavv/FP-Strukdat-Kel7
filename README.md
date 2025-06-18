@@ -9,3 +9,4 @@
 | 3   | Muhammad Fatihul Qolbi Ash Shiddiqi | 5027241023 |
 | 4   | Mochammad Atha Tajuddin             | 5027241093 |
 | 5   | Muhammad Ahsani Taqwiim Rakhman     | 5027241099 |
+| 6   | Danar Bagus Rasendriya              | 5027231055 |
