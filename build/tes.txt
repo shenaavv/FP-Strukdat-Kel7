@@ -1,0 +1,26 @@
+
+Graph Visualization:
+====================================================================================
+Node: Sidoarjo (end)
+  Location: (-7.45597, 112.661)
+  Connections:
+    None
+
+Node: Wonokromo (known_waypoint1)
+  Location: (-7.31618, 112.712)
+  Connections:
+    -> Sidoarjo (end): 16.54 km
+    -> Waru (known_waypoint2): 8.27 km
+
+Node: Waru (known_waypoint2)
+  Location: (-7.39, 112.69)
+  Connections:
+    -> Sidoarjo (end): 8.27 km
+
+Node: Surabaya (start)
+  Location: (-7.25, 112.74)
+  Connections:
+    -> Sidoarjo (end): 25.00 km
+    -> Wonokromo (known_waypoint1): 8.27 km
+
+====================================================================================

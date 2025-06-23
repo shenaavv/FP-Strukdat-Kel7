@@ -1,0 +1,10 @@
+^F:\CPP_FP_STRUKDAT_SEM2\BUILD\CMAKEFILES\B73874AB9D57C0B4697347BAE60E7789\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/cpp_fp_strukdat_sem2 -BF:/cpp_fp_strukdat_sem2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/cpp_fp_strukdat_sem2/build/maps_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

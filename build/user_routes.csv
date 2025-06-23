@@ -1,0 +1,7 @@
+name,startLocation,endLocation,routeType,waypoints
+Testing fitur,Gresik,Surabaya,0,start|end
+Perjalanan tes,Surabaya,Sidoarjo,0,start|end
+Testing,Sidoarjo,Surabaya,1,start|end
+Rute tercepat dari surabaya ke kota malang,Surabaya,Kota Malang,0,start|end
+Rute perjalanan dari Surabaya ke sidoarjo,Surabaya,Sidoarjo,0,start|end
+Rute dari Surabaya ke Kota Malang,Surabaya,Kota Malang,2,start|end

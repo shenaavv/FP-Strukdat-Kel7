@@ -1,0 +1,27 @@
+Run dengan menggunakan : 
+
+Step by step :
+1.cd build
+2.cmake --build . --config Release
+3.Jalankan dengan perintah berikut ./Release\maps_project.exe
+
+
+Tools that used here :
+1.http://project-osrm.org/ (Open OSRM project)-> Untuk perhitungan biaya jika melewati toll
+2.Httplib.h & json.hpp & https://nominatim.org/ -> digunakan untuk data nama jalan dan jarak dari kota ke kota.
+
+Algorithm & Data structure that used : 
+
+1. Greedy best first search -> Digunakan untuk mencari shortest path yang lebih cepat dan efisien
+dibandingkan dengan A* atau Djikstra.
+2.Adjacency list
+3. Algoritma A*
+
+
+Weakness :
+
+1. Terkadang beberapa route antara via toll dengan tidak jaraknya sama, ini disebabkan
+karena api maps yang kurang begitu optimal.
+
+
+

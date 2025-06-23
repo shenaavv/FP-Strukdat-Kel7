@@ -1,0 +1,6 @@
+===== Maps Pathfinder Route Export =====
+Generated on: 2025-06-23 23:17:24
+
+Route details were exported to this file at the end of your session.
+To view detailed route information, please use the export options
+while viewing specific routes in the application.

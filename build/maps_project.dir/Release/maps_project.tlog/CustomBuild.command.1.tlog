@@ -1,0 +1,10 @@
+^F:\CPP_FP_STRUKDAT_SEM2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/cpp_fp_strukdat_sem2 -BF:/cpp_fp_strukdat_sem2/build --check-stamp-file F:/cpp_fp_strukdat_sem2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,34 @@
+
+Graph Visualization:
+====================================================================================
+Node: Kota Malang (end)
+  Location: (-7.97713, 112.634)
+  Connections:
+    None
+
+Node: Surabaya (start)
+  Location: (-7.24628, 112.738)
+  Connections:
+    -> Kota Malang (end): 82.07 km
+    -> Surabaya to Kota Malang (via Area 1) (waypoint1): 21.50 km
+    -> Surabaya to Kota Malang (via Area 2) (waypoint2): 40.11 km
+    -> Surabaya to Kota Malang (via Area 3) (waypoint3): 62.51 km
+
+Node: Surabaya to Kota Malang (via Area 1) (waypoint1)
+  Location: (-7.44, 112.72)
+  Connections:
+    -> Kota Malang (end): 60.62 km
+    -> Surabaya to Kota Malang (via Area 2) (waypoint2): 18.79 km
+
+Node: Surabaya to Kota Malang (via Area 2) (waypoint2)
+  Location: (-7.60, 112.68)
+  Connections:
+    -> Kota Malang (end): 42.00 km
+    -> Surabaya to Kota Malang (via Area 3) (waypoint3): 22.55 km
+
+Node: Surabaya to Kota Malang (via Area 3) (waypoint3)
+  Location: (-7.80, 112.67)
+  Connections:
+    -> Kota Malang (end): 19.61 km
+
+====================================================================================
